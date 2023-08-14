@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.romide.terminal"
-        minSdkVersion 18
-        targetSdkVersion 32
+        minSdkVersion 26
+    
+        targetSdkVersion 33
         versionName "1.0"
         versionCode 1
 
